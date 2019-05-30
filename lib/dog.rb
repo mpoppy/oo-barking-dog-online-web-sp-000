@@ -6,4 +6,7 @@ class Dog
   def name #this is the reader method
     @my_name
   end
+  def bark
+    puts "woof!"
+  end
 end
